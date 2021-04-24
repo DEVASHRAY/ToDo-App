@@ -9,8 +9,9 @@ const handleChange = (event) => {
 }
 
     return(
-        <input type="text"
+        <input type="text" required
                 placeholder="Add an Item"
+                
                 value = {props.input}
                 onChange = {(event) => {handleChange(event)}}
                 />
